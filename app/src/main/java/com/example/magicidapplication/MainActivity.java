@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
                     sNationality = "Permanent Resident";
                 }
 
+                tvResults.setText(getString(R.string.dob)+ dob +"\n"
+                                    +getString(R.string.gender)+ sGender + "\n"
+                                    +getString(R.string.nationality)+ sNationality);
+
 
 
             }
