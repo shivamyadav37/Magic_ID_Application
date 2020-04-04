@@ -36,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
                 String sGender;
 
                 if (gender<5){
-                    sGender = "Female";
+                    sGender = getString(R.string.female);
                 }
                 else {
-                    sGender = "Male";
+                    sGender = getString(R.string.male);
                 }
 
                 int nationality = Integer.parseInt(Character.toString(idNumber.charAt(12)));
@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                         +getString(R.string.nationality)+ sNationality;
 
                 tvResults.setText(text);
-
 
 
 
