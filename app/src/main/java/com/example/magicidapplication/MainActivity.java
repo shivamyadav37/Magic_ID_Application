@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
                     sGender = "Male";
                 }
 
+                int nationality = Integer.parseInt(Character.toString(idNumber.charAt(12)));
+
 
             }
         });
