@@ -31,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
                 String dob = idNumber.substring(0,6);
 
-                int gender = idNumber.charAt(6);
+                int gender = Integer.parseInt(Character.toString(idNumber.charAt(6)));
 
-                
+
+
 
             }
         });
