@@ -33,7 +33,14 @@ public class MainActivity extends AppCompatActivity {
 
                 int gender = Integer.parseInt(Character.toString(idNumber.charAt(6)));
 
+                String sGender;
 
+                if (gender<5){
+                    sGender = "Female";
+                }
+                else {
+                    sGender = "Male";
+                }
 
 
             }
