@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvResults;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         etID = findViewById(R.id.etID);
         btnSubmit = findViewById(R.id.btnSubmit);
         tvResults = findViewById(R.id.tvResults);
+
+        tvResults.setVisibility(View.GONE);
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
