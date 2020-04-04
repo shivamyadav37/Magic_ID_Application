@@ -47,15 +47,15 @@ public class MainActivity extends AppCompatActivity {
                 String sNationality;
 
                 if (nationality==0){
-                    sNationality = "South African Citizen";
+                    sNationality = getString(R.string.sacitizen);
                 }
                 else {
-                    sNationality = "Permanent Resident";
+                    sNationality = getString(R.string.permanentcitizen);
                 }
 
-                String text =getString(R.string.dob)+ dob +getString(R.string.newline)
-                        +getString(R.string.gender)+ sGender +getString(R.string.newline)
-                        +getString(R.string.nationality)+ sNationality;
+                String text =getString(R.string.dob)+ dob +"\n"
+                        +getString(R.string.gender)+ sGender +"\n"
+                        +getString(R.string.nationality)+ sNationality);
 
                 tvResults.setText(text);
 
