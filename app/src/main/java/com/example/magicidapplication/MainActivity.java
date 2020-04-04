@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
                 tvResults.setText(text);
 
-
+                tvResults.setVisibility(View.VISIBLE);
 
             }
         });
