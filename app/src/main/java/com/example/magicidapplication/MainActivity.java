@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String text =getString(R.string.dob)+ dob +"\n"
                         +getString(R.string.gender)+ sGender +"\n"
-                        +getString(R.string.nationality)+ sNationality);
+                        +getString(R.string.nationality)+ sNationality;
 
                 tvResults.setText(text);
 
