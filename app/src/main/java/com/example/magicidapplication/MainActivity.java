@@ -46,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
 
                 String sNationality;
 
+                if (nationality==0){
+                    sNationality = "South African Citizen";
+                }
+                else {
+                    sNationality = "Permanent Resident";
+                }
+
 
 
             }
